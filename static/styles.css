@@ -1,0 +1,22 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0%;
+}
+header,footer{
+    background-color:  burlywood;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+main{
+    padding: 2rem;
+}
+section{
+    margin-bottom: 2rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px;
+}
