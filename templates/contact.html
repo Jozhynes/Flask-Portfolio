@@ -1,0 +1,19 @@
+
+    {% extends 'base.html' %}
+    {% block title %}Contact us Portfolio{% endblock %}
+    {% block content  %}
+    
+    <section id="contact">
+        <h2>Contact me</h2>
+        <form>
+            <label for="name">Your name</label>
+            <input type="text" name="name">
+            <label for="Email">Enter Your Email</label>
+            <input type="Email" name="Email">
+            <label for="message">Write your message</label>
+            <textarea name="message" rows="10" id="message" placeholder="Write Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+    </section>
+    {% endblock %}

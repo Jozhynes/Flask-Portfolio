@@ -5,13 +5,14 @@
     <h2>About me</h2>
     <p>Hello! I'm a beginer web developer learning Flask. This is my First Portfolio page!</p>
 </section>   
-<section class="Projects">
-    <h2>Projects</h2>
-    <ul>
-        <li>Flask login system</li>
-        <li>Book tracker system</li>
-        <li>Market access app for farmers</li>
-    </ul>
+<section class="Products">
+    <h2>Product List</h2>
+<ul>
+    {% for product in Products %}
+    <li>{{ product.Product_name }} - {{ product.Quantity }} - ${{ product.Price }}</li>
+    {% endfor %}
+</ul>
+
 
 </section>
 {% endblock %}

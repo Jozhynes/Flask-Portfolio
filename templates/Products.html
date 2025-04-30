@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %} Products {% endblock %}
+{% block content %} 
+
+<form method="post">
+    <label for="Product_name">Product name</label>
+    <input type="text" name="pname" placeholder="Product name" required>
+    <label for="Quantity">Quantity</label>
+    <input type="text" name="Quantity" placeholder="Enter Quantity" required>
+    <label for="Price">Price</label>
+    <input type="text" name="Price" placeholder="Price of Item" required>
+    <button type="submit">submit</button>
+    
+</form>
+
+
+
+
+
+
+
+{% endblock %}

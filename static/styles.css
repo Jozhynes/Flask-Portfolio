@@ -20,3 +20,62 @@ section{
     border-radius: 8px;
     box-shadow: 0 0 10px;
 }
+#contact {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0,0,0.1);
+    font-family: Arial, sans-serif;
+
+}
+#contact h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+#contact form{
+    display: flex;
+    flex-direction: column;
+}
+#contact label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+
+}
+#contact input,
+#contact textarea{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    resize: vertical;
+    transition: border-color 0.3s;
+}
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+#contact button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
+}
+
+
